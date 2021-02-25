@@ -1,0 +1,10 @@
+version: "0.1"
+services:
+    calc_server:
+        build: .
+        container_name: calculator
+        ports:
+            - 50050:50050
+        volumes:
+
+
